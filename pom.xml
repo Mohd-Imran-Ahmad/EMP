@@ -118,6 +118,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>ems</finalName>
 	</build>
 
 </project>
