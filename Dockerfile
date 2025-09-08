@@ -5,10 +5,10 @@ FROM openjdk:17-jdk-alpine
 WORKDIR /app
 
 # Copy the built JAR file into the container
-COPY target/ems.jar app.jar
+COPY target/ems.jar /app
 
 # Expose the port your Spring Boot application runs on
 EXPOSE 8081
 
 # Define the command to run the JAR
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "ems.jar"]
