@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ems
+  datasource:
+    url: jdbc:mysql://localhost:3306/ems_db
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: "0987"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
