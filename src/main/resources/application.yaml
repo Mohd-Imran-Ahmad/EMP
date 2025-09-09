@@ -5,10 +5,10 @@ spring:
   application:
     name: ems
   datasource:
-    url: jdbc:mysql://localhost:3306/ems_db
+    url: jdbc:mysql://database-1.c5s2kgim8ejo.ap-south-1.rds.amazonaws.com/ems_db
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: "0987"
+    username: admin
+    password: "test1234"
   jpa:
     hibernate:
       ddl-auto: update
