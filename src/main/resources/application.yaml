@@ -5,7 +5,7 @@ spring:
   application:
     name: ems
   datasource:
-    url: jdbc:mysql://database-1.c5s2kgim8ejo.ap-south-1.rds.amazonaws.com:3306/ems_db
+    url: jdbc:mysql://13.203.196.2:3306/ems_db
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: admin
     password: "test1234"
